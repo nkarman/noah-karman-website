@@ -1,0 +1,44 @@
+.App {
+  text-align: center;
+  align-items: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  height: 500px;
+  padding: 20px;
+  color: white;
+  background-image: url('http://worldpopulationreview.com/us-cities/ann-arbor-population/ann-arbor-population-2016.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.prof-pic {
+  height: 250px;
+  width: 250px;
+  border-radius: 165px;
+  box-shadow: 2px 2px 5px black;
+}
+
+.home-card {
+  background-color: grey;
+  width: auto;
+  height: auto;
+  margin-left: 50px;
+  margin-right: 50px;
+  border-radius: 10px;
+  align: center;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
