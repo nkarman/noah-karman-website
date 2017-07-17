@@ -1,4 +1,4 @@
-export default const skills = [
+const skills = [
   {
     skill: 'React-Native',
     logoURL: 'https://cdn.worldvectorlogo.com/logos/react.svg',
@@ -24,5 +24,6 @@ export default const skills = [
     logoURL: 'https://cdn.worldvectorlogo.com/logos/heroku.svg',
     experience: 'I write apps a lot, okay..'
   },
-
 ]
+
+export default skills

@@ -10,7 +10,7 @@
 
 .App-header {
   height: 500px;
-  padding: 20px;
+  padding: 80px;
   color: white;
   background-image: url('http://worldpopulationreview.com/us-cities/ann-arbor-population/ann-arbor-population-2016.jpg');
   background-size: cover;
@@ -32,10 +32,17 @@
   background-color: grey;
   width: auto;
   height: auto;
-  margin-left: 50px;
-  margin-right: 50px;
+  margin: 50px;
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   border-radius: 10px;
   align: center;
+}
+
+.heavy-title {
+  font-size: 60px;
 }
 
 @keyframes App-logo-spin {
