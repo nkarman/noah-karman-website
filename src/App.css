@@ -13,12 +13,28 @@
   padding: 80px;
   color: white;
   background-image: url('http://worldpopulationreview.com/us-cities/ann-arbor-population/ann-arbor-population-2016.jpg');
+  /*background-image: url('https://c1.staticflickr.com/9/8245/8462988203_10fc88d3bf_b.jpg');*/
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .App-intro {
   font-size: large;
+}
+
+.navigation-wrapper {
+  flex-direction: row;
+  display: flex;
+}
+
+.navigation-item {
+
+}
+
+.bio {
+  margin: 80px;
+  font-weight: bolder;
+  font-size: 50px;
 }
 
 .prof-pic {
@@ -39,6 +55,15 @@
   padding-bottom: 50px;
   border-radius: 10px;
   align: center;
+}
+
+.card-header {
+  color: white;
+  font-size: 40px;
+}
+
+.card-header-wrap {
+  margin-bottom: 150px;
 }
 
 .heavy-title {

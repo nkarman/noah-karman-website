@@ -3,13 +3,14 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
-  padding-bottom: 100px;
+  padding-bottom: 50px;
 }
 
 .skill-logo {
   display: flex;
   flex: 1;
   align-self: flex-start;
+  padding-top: 25px;
 }
 
 .skill-text {
@@ -24,9 +25,13 @@
 .skill-title {
   display: flex;
   font-size: 50px;
+  color: white;
 }
 
 .skill-description {
   display: flex;
   font-size: 20px;
+  text-align: left;
+  width: 400px;
+  color: white;
 }

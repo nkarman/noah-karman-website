@@ -23,7 +23,10 @@ export default class Home extends Component {
           offering a balance of imagination and technical skill.
         </h1>
         <div className='home-card'>
-          <SkillList/>
+          <div className="card-header-wrap">
+            <h2 className='card-header'>A Few of My Favorite Things</h2>
+          </div>
+          <SkillList className='skill-list'/>
         </div>
       </div>
     );
