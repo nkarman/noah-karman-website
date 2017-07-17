@@ -3,6 +3,7 @@ import profPic from '../Images/ProfPic.jpg'
 import SkillList from '../Components/SkillList'
 import '../App.css';
 
+
 export default class Home extends Component {
   render() {
     return (
@@ -24,7 +25,7 @@ export default class Home extends Component {
         </h1>
         <div className='home-card'>
           <div className="card-header-wrap">
-            <h2 className='card-header'>A Few of My Favorite Things</h2>
+            <h2 className='card-header'>The Toolbox.</h2>
           </div>
           <SkillList className='skill-list'/>
         </div>

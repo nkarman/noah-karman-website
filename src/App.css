@@ -11,8 +11,8 @@
 .App-header {
   height: 500px;
   padding: 80px;
-  color: white;
-  background-image: url('http://worldpopulationreview.com/us-cities/ann-arbor-population/ann-arbor-population-2016.jpg');
+  color: #e1e1e1;
+  background-image: url('https://c1.staticflickr.com/5/4079/4944197428_0b66944145_b.jpg');
   /*background-image: url('https://c1.staticflickr.com/9/8245/8462988203_10fc88d3bf_b.jpg');*/
   background-size: cover;
   background-repeat: no-repeat;
@@ -22,12 +22,25 @@
   font-size: large;
 }
 
+.main-container {
+  background-color: #e1e1e1;
+}
+
 .navigation-wrapper {
   flex-direction: row;
   display: flex;
+  background-color: #e1e1e1;
 }
 
 .navigation-item {
+  padding: 10px;
+  font-size: 14px;
+  /*border-right: thin solid grey;*/
+
+}
+
+.navigation-text {
+  font-size: 24px;
 
 }
 
@@ -35,6 +48,7 @@
   margin: 80px;
   font-weight: bolder;
   font-size: 50px;
+  color: black;
 }
 
 .prof-pic {
@@ -53,7 +67,7 @@
   padding-right: 150px;
   padding-top: 50px;
   padding-bottom: 50px;
-  border-radius: 10px;
+  border-radius: 15px;
   align: center;
 }
 
@@ -64,13 +78,11 @@
 
 .card-header-wrap {
   margin-bottom: 150px;
+  /*border-style: solid;*/
+  border-bottom: thick dotted #2098D1;
 }
 
 .heavy-title {
   font-size: 60px;
-}
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+  text-shadow: -0.5px 0 black, 0 0.5px black, 0.5px 0 black, 0 -0.5px black;
 }

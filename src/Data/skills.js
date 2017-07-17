@@ -17,7 +17,7 @@ const skills = [
   {
     skill: 'MongoDB',
     logoURL: 'http://luminome.com/static/image/mongodb-gui-tools.png',
-    experience: 'MongoDB is '
+    experience: 'MongoDB is a fantastic open-source noSQL database that helps me keep your data safe.'
   },
   {
     skill: 'Swift',
