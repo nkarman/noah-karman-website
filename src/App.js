@@ -8,6 +8,7 @@ import {
 import Home from './Containers/Home.js'
 import Work from './Containers/Work.js'
 import About from './Containers/About.js'
+import Footer from './Components/Footer.js'
 
 
 const Topic = ({ match }) => (
@@ -48,19 +49,20 @@ const App = () => (
   <Router>
     <div className='main-container'>
       <div className="navigation-wrapper">
-        <Link className='navigation-item  hvr-rectangle-out' to="/">
+        <Link className='navigation-item  hvr-underline-reveal' to="/">
           <h1 className='navigation-text'>HOME</h1>
         </Link>
-        <Link className='navigation-item hvr-rectangle-out' to="/work">
+        <Link className='navigation-item hvr-underline-reveal' to="/work">
           <h1 className='navigation-text'>WORK</h1>
         </Link>
-        <Link className='navigation-item hvr-rectangle-out' to="/about">
+        <Link className='navigation-item hvr-underline-reveal' to="/about">
           <h1 className='navigation-text'>ABOUT</h1>
         </Link>
       </div>
       <Route exact path="/" component={Home}/>
       <Route path="/work" component={Work}/>
       <Route path="/about" component={About}/>
+      <Footer/>
     </div>
   </Router>
 )

@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import profPic from '../Images/ProfPic.jpg'
 import SkillList from '../Components/SkillList'
+import '../Themes/Animations/hover.css'
 import '../App.css';
 
 
@@ -9,7 +10,7 @@ export default class Home extends Component {
     return (
       <div className="App">
         <div className="App-header">
-          <img src={profPic} className="prof-pic" />
+          <img src={profPic} className="prof-pic hvr-grow" />
           <h1 className='heavy-title'>
             Noah Karman
           </h1>

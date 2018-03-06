@@ -28,7 +28,7 @@ export default class SkillList extends Component {
           <ScrollAnimation animateIn='fadeIn' duration='0.5'>
             <div className='skill-wrapper'>
             {/* <div className='skill-wrapper hvr-forward'> */}
-              <div className='skill-logo hvr-grow-rotate'>
+              <div className='skill-logo'>
                 <Image src={skillInfo.logoURL} height={180} width={180}/>
               </div>
               <div className="skill-text">
